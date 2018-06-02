@@ -127,7 +127,7 @@ function findFood(food, location, convo) {
 }
 
 controller.on('outgoing_webhook', (bot, message) => {
-  bot.replyPublic(message, 'yeah yeah');
+  bot.replyPublic(message, 'hello I am here');
 });
 
 // enable/disable cross origin resource sharing if necessary
@@ -157,7 +157,7 @@ app.get('/', (req, res) => {
 
 // START THE SERVER
 // =============================================================================
-const port = process.env.PORT || 9090;
-app.listen(port);
-
-console.log(`listening on: ${port}`);
+// const port = process.env.PORT || 9090;
+// app.listen(port);
+//
+// console.log(`listening on: ${port}`);
